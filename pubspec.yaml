@@ -1,0 +1,25 @@
+name: gd_http_client
+description: Dart Http Client for Flutter application
+version: 0.0.1
+homepage: 
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.9.1
+  native_dio_adapter: ^1.5.1
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.11.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  build_runner: ^2.11.1
+  freezed: ^3.2.5
+  json_serializable: ^6.13.0
